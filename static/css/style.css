@@ -1,0 +1,145 @@
+html {position: relative; min-height: 100%;}
+body,header {margin: 0; padding: 0; font-family: 'Open Sans'; color: #363636;}
+body {text-align: center;}
+a {color: #363636; text-decoration: none; transition: all 0.5s ease;}
+a:hover,
+a:active {color:#2f2f2f; text-decoration: none;}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background: rgba(54,54,54,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald';
+}
+
+.mask-container {
+    background: url('../img/newsletter_500x489-2.jpg') no-repeat;
+    width: 500px;
+    height: 489px;
+    position: relative;
+}
+
+.mask-information {
+    position: absolute;
+    top: 232px;
+    left: 67px;
+}
+
+.newsletter-input {
+    border: none;
+    border-bottom: 1px solid #363636;
+    padding: 6px 0;
+    background: transparent;
+    margin: 0;
+    font-size: 20px;
+    width: 211px;
+    font-family: 'Oswald' !important;
+    outline: none;
+}
+
+.newsletter-input:focused {
+    outline: none;
+}
+
+.newsletter-sign-in {
+    background: #363636;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    text-transform: uppercase;
+    margin: 10px 0;
+    transition: background 300ms ease;
+    cursor:pointer;
+    font-family: 'Oswald' !important;
+}
+
+.newsletter-sign-in:hover {
+    background: #414141;
+}
+section.gallery {
+    background: #191919;
+}
+
+.gallery-inside {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.gallery img {
+    max-width: 320px;
+    margin-top: 30px;
+}
+
+.icon-close {
+    font-size: 25px;
+    cursor:pointer;
+    padding: 20px 30px;
+    color: #363636;
+    font-style: normal;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header {width: 100%; display: inline-block; text-align: center;}
+header #logo {display: block; padding: 20px 0 5px;}
+nav { width:82vw; margin: 15px 0 15px; padding-bottom: 20px; display: inline-block; font-family: 'Oswald'; border-bottom: 10px solid #000;}
+nav ul li {display: inline;}
+nav > ul { font-size: 14px; text-transform: uppercase; list-style-type: none; margin: 0; padding: 0;}
+nav > ul a {color:#000; text-decoration: none; padding: 8px 15px;}
+nav > ul a:hover {color: #fff; background: #363636;}
+
+/*main {min-height: calc(100vh - 370px); }*/
+
+section h2 {text-align: center;}
+section.o-nas #text {float:left; text-align: justify; font-size: 21px;}
+
+section.o-nas {max-width: 800px; margin: 0 auto; font-size: 18px;}
+
+#owl-demo,.owl-carousel {width:100%;}
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+}
+section.video {position: relative; text-align: center; overflow: hidden;}
+section.video iframe, section.video object, section.video embed
+{
+   /* width: 90vw;
+    height: calc(100vh - 250px);*/
+}
+
+section.lookbook {}
+ #lookbook .item {height: 480px;}
+ /*#lookbook .item img:hover {max-height: 480px;}*/
+ #lookbook .item img {max-height: 400px;transition:all 1s;}
+ #lookbook .item:hover .shop-online {display: block;}
+ #lookbook .shop-online {margin: 35px 0 0; display: none;}
+  #lookbook .shop-online a {border: 3px solid #363636; padding: 8px 12px; text-transform: uppercase; font-size: 16px; font-weight: bold;}
+  #lookbook .shop-online a:hover {background: #363636; color: #fff;}
+
+section.sklepy{}
+    .map {width:99%; height: calc(100vh - 450px); overflow: hidden;}
+    .map iframe {width: 99%; height: calc(100vh - 387px); margin-top: -52px;}
+
+footer { width: 60vw; text-align: center; border-top: 1px solid #cfcfcf; display: inline-block; padding: 8px 0 0; margin: 20px 0 10px; transition: all 0.5s ease;}
+footer:hover {border-top: 1px solid #555;}
+footer a {color: #afafaf; text-decoration: none;}
+footer a:hover {color: #363636 !important;}
+ footer section#links {display: inline-block; font-family: 'Oswald'; color: #cfcfcf; }
+   #links ul li {display: inline;}
+   #links > ul { font-size: 14px; text-transform: uppercase; list-style-type: none; margin: 0; padding: 0;}
+   #links a { padding: 0 10px; font-weight: light; font-size: 10px; letter-spacing: 3px;}
+ footer section#social-links {margin-top: 20px;}
+   #social-links a {font-size:35px; color: #666;}
+ footer section#copyright {display: inline-block; margin-top: 15px;font-size: 12px;}
+   #copyright p {margin:0;}
+   #copyright p:first-child {font-size: 14px;}
+
