@@ -1,16 +1,41 @@
 <header>
     <div id="logo">
-        <a href="/">
-            <img src="images/site/main-logo.png" alt=""/>
+        {{ with .Site.Params.navigation.logo }}
+        <a href="">
+            <img src="{{ . }}" class="main-logo" alt="">
         </a>
+        {{ end }}
+
     </div>
     <nav>
         <ul>
-            <li><a href="#" onClick="onas()">O nas</a></li>
-            <li><a href="#" onClick="video()">video</a></li>
-            <li><a href="#" onClick="kontakt()">kontakt</a></li>
-            <li><a href="#" target="_blank">Sklep internetowy</a></li>
-            <li><a href="#" onClick="sklepy()">Nasze sklepy</a></li>
+            {{ if .Site.Params.about.enable }}
+            <li><a href="{{ .Site.BaseURL }}#{{ i18n "about" | anchorize }}" onClick="about()">
+                    {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
+                </a></li>
+            {{ end }}
+            {{ if .Site.Params.video.enable }}
+            <li><a href="{{ .Site.BaseURL }}#{{ i18n "video" | anchorize }}" onClick="video()">
+                    {{ with .Site.Params.navigation.video }} {{ . }} {{ end }}
+                </a></li>
+            {{ end }}
+            {{ if .Site.Params.contact.enable }}
+            <li><a href="{{ .Site.BaseURL }}#{{ i18n "contact" | anchorize }}" onClick="contact()">
+                    {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
+                </a></li>
+            {{ end }}
+            {{ if .Site.Params.other.enable }}
+            <li><a href="{{ .Site.BaseURL }}#{{ i18n "other" | anchorize }}" onClick="other()">
+                    {{ with .Site.Params.navigation.other }} {{ . }} {{ end }}
+                </a></li>
+            {{ end }}
+            {{ if .Site.Params.link.enable }}
+
+            <li><a href="{{ with .Site.Params.link.href }}{{ . }}{{end}}">
+                    {{ with .Site.Params.navigation.link }} {{ . }} {{ end }}
+                </a></li>
+
+            {{ end }}
         </ul>
     </nav>
 </header>

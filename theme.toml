@@ -2,20 +2,14 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "owlminimal"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+license = "CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+description = "Minimal and simplistic page with centered content"
 homepage = "http://example.com/"
-tags = []
+tags = ['landing-page', 'minimal', 'modern', 'owl', 'lightweight']
 features = []
 min_version = "0.41"
 
 [author]
   name = "Dawid Sowa"
   homepage = "dawidsowa.pl"
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
