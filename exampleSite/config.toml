@@ -1,0 +1,43 @@
+baseURL = "http://example.org/"
+languageCode = "pl"
+title = "Owl Minimal by dawidsowa.pl"
+description = "Meta Description for freshly created site"
+theme = "owlminimal"
+
+[params]
+
+[params.navigation]
+logo = "images/owlstdio.png"
+about = "About"
+video = "Video"
+contact = "Contact"
+link = "External Link"
+
+[params.social]
+fb = true
+fbHref = "facebook.com"
+ig = true
+igHref = "instagram.com"
+yt = true
+ytHref = "youtube.com"
+vimeo = true
+vimeoHref = "vimeo.com"
+
+[params.about]
+enable      = true
+heading     = "We believe in sharing."
+description = "Sharing is our passion. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+
+[params.video]
+enable      = true
+video2      = "https://www.youtube.com/embed/Bvdihtvt13Q"
+
+[params.contact]
+enable      = true
+heading     = "Our Company"
+description = "Main Street 1, Oregon"
+contact     = "kontakt [at] owlstd.io"
+
+[params.link]
+enable      = true
+href        = "http://www.google.pl"
