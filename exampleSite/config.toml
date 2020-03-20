@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "pl"
 title = "Owl Minimal by dawidsowa.pl"
 description = "Meta Description for freshly created site"
-theme = "owlminimal"
+theme = "hugo-owlminimal"
 
 [params]
 
