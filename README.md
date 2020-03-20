@@ -1,7 +1,6 @@
-# Hugo Theme
-## owlminimal
+# Hugo Theme - OWL Minimal
 
-Develop based on frontend training sites
+Simple and minimal JQuery based site, developed based on frontend training sites
 
 ## Instalation
 Have NodeJS, Hugo etc. available in your path before.
