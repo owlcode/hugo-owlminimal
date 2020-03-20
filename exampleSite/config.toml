@@ -27,6 +27,8 @@ vimeoHref = "vimeo.com"
 enable      = true
 heading     = "We believe in sharing."
 description = "Sharing is our passion. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+heading2     = "This is why our source is open."
+description2 = "We truly want technology to become available for everyone. That drives us to as far as brain could possible drive giving this awesome content!"
 
 [params.video]
 enable      = true
