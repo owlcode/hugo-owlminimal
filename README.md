@@ -1,5 +1,7 @@
 # Hugo Theme - OWL Minimal
 
+![Build](https://travis-ci.org/owlcode/hugo-owlminimal.svg?branch=master)
+
 Simple and minimal JQuery based site, developed based on frontend training sites
 
 ## Instalation
