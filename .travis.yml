@@ -1,0 +1,16 @@
+install:
+    - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
+    - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
+  script:
+    - hugo --themesDir ../../
+  
+  deploy:
+    provider: pages
+    email: "kontakt@owlstd.io"
+    name: "Dawid Sowa"
+    skip_cleanup: true
+    verbose: true
+    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    on:
+      branch: master
