@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Owl Minimal by dawidsowa.pl</title>
-    <link>http://example.org/</link>
+    <link>https://owlcode.github.io/hugo-owlminimal/</link>
     <description>Recent content on Owl Minimal by dawidsowa.pl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 18 Mar 2020 00:58:01 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2020 00:58:01 +0100</lastBuildDate><atom:link href="https://owlcode.github.io/hugo-owlminimal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Example Post</title>
-      <link>http://example.org/posts/post/</link>
+      <link>https://owlcode.github.io/hugo-owlminimal/posts/post/</link>
       <pubDate>Wed, 18 Mar 2020 00:58:01 +0100</pubDate>
       
-      <guid>http://example.org/posts/post/</guid>
+      <guid>https://owlcode.github.io/hugo-owlminimal/posts/post/</guid>
       <description>Markdown is fully supported So are a variety of other flavors If you prefer certain flavors, you should check it out on the official documentation.</description>
     </item>
     
