@@ -30,7 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build Hugo
         run: |
-          hugo --source exampleSite --themesDir ../../
+          hugo --source exampleSite --themesDir ../../ --baseURL https://owlcode.github.io/hugo-owlminimal/
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
