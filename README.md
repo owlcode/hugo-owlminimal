@@ -1,6 +1,6 @@
 ## Hugo Theme - OWL Minimal
 
-![Build](https://github.com/owlcode/hugo-owlminimal/workflows/CI/badge.svg)
+![Build](https://github.com/owlcode/hugo-owlminimal/workflows/CI/badge.svg) **[Live Demo](https://owlcode.github.io/hugo-owlminimal/)**
 
 Simple and minimal Black & White theme built for [Hugo](https://gohugo.io/) 💪 
 Based on HTML divs and jQuery is a great starting point for bigger integration 👀
